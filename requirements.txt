@@ -1,0 +1,105 @@
+# ═══════════════════════════════════════════════
+#  SAAF SHEHER – requirements.txt
+#  Pakistan's AI-Powered Civic Complaint System
+# ═══════════════════════════════════════════════
+
+# ── Core UI ────────────────────────────────────
+gradio>=4.44.0
+
+# ── Computer Vision ────────────────────────────
+ultralytics>=8.3.0          # YOLOv8 (downloads yolov8n.pt automatically)
+opencv-python-headless>=4.9  # Image processing (headless = no GUI deps)
+Pillow>=10.3.0               # PIL image handling
+# ═══════════════════════════════════════════════
+#  SAAF SHEHER – requirements.txt
+#  Pakistan's AI-Powered Civic Complaint System
+# ═══════════════════════════════════════════════
+
+# ── Core UI ────────────────────────────────────
+gradio>=4.44.0
+plotly>=5.18.0
+
+# PDF Generation
+reportlab>=4.0.0
+
+# Image Processing
+Pillow>=10.0.0
+
+# AI/ML Models
+ultralytics>=8.0.0
+sentence-transformers>=2.2.2
+faiss-cpu>=1.7.4
+
+# Google AI (Gemini)
+google-generativeai>=0.3.0
+
+# Groq AI (Llama)
+groq>=0.4.0
+
+# Text-to-Speech
+gTTS>=2.4.0
+
+# Speech Recognition
+SpeechRecognition>=3.10.0
+
+pydub
+
+# Audio Processing
+pydub>=0.25.1
+
+# Data Processing
+numpy>=1.24.0
+pandas>=2.0.0
+
+# Additional Dependencies
+python-dateutil>=2.8.0
+requests>=2.31.0
+# ── Computer Vision ────────────────────────────
+ultralytics>=8.3.0          # YOLOv8 (downloads yolov8n.pt automatically)
+opencv-python-headless>=4.9  # Image processing (headless = no GUI deps)
+Pillow>=10.3.0               # PIL image handling
+sentence-transformers>=2.2.0
+# ── Google Gemini ──────────────────────────────
+google-generativeai>=0.8.3   # Gemini 2.0 Flash
+
+# ── Groq / Llama 3 (optional) ──────────────────
+groq>=0.11.0                 # Groq API client for Llama 3
+
+# ── Voice / Audio ──────────────────────────────
+gTTS>=2.5.1                  # Text-to-speech (4 languages, free)
+SpeechRecognition>=3.10.4    # Speech-to-text via Google STT
+pydub>=0.25.1                # Audio format conversion (needed by SR)
+
+# ── Networking / Utilities ─────────────────────
+requests>=2.32.0
+urllib3>=2.2.0
+python-dotenv>=1.0.1         # Local .env file support
+
+# ── Data / Numerics ────────────────────────────
+numpy>=1.26.0
+
+# ── Optional: audio backend for SpeechRecognition ──
+# If microphone input is needed on server, also install:
+# pyaudio>=0.2.14  (requires portaudio system library)
+# ── Google Gemini ──────────────────────────────
+google-generativeai>=0.8.3   # Gemini 2.0 Flash
+
+# ── Groq / Llama 3 (optional) ──────────────────
+groq>=0.11.0                 # Groq API client for Llama 3
+
+# ── Voice / Audio ──────────────────────────────
+gTTS>=2.5.1                  # Text-to-speech (4 languages, free)
+SpeechRecognition>=3.10.4    # Speech-to-text via Google STT
+pydub>=0.25.1                # Audio format conversion (needed by SR)
+
+# ── Networking / Utilities ─────────────────────
+requests>=2.32.0
+urllib3>=2.2.0
+python-dotenv>=1.0.1         # Local .env file support
+
+# ── Data / Numerics ────────────────────────────
+numpy>=1.26.0
+
+# ── Optional: audio backend for SpeechRecognition ──
+# If microphone input is needed on server, also install:
+# pyaudio>=0.2.14  (requires portaudio system library)
